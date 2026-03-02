@@ -1,0 +1,9 @@
+# Reflexão Contextual — Mobile Development
+
+## A Importância dos Aplicativos Móveis para o E-commerce e os Desafios do Desenvolvimento com React Native
+
+Os aplicativos móveis se tornaram peça fundamental no cenário do e-commerce atual. Com o crescimento do uso de smartphones, os consumidores esperam experiências de compra rápidas, intuitivas e acessíveis diretamente de seus dispositivos. Um catálogo mobile bem desenvolvido permite que o cliente navegue por produtos, compare preços e realize compras a qualquer momento, aumentando significativamente as taxas de conversão e fidelização.
+
+No desenvolvimento com React Native, o consumo de APIs REST representa um dos principais desafios técnicos. É necessário lidar com requisições assíncronas, tratar erros de conexão, gerenciar estados de carregamento para dar feedback visual ao usuário e garantir que os dados recebidos sejam corretamente mapeados e exibidos nos componentes. A utilização do Axios facilita esse processo ao oferecer uma interface limpa para requisições HTTP, enquanto o Redux Toolkit centraliza o gerenciamento de estado, evitando inconsistências entre as diferentes telas do aplicativo.
+
+O projeto "Loja da Thay" conecta diretamente os conceitos estudados em aula com uma aplicação prática. A estruturação do projeto em pastas organizadas (screens, components, services, store) segue o princípio de separação de responsabilidades. A navegação entre telas por Stack e Bottom Tabs demonstra o uso correto do React Navigation. O consumo da API DummyJSON via Axios exemplifica a integração com serviços externos, enquanto o Redux Toolkit garante a persistência e o compartilhamento de dados entre componentes — como o estado de login, o carrinho de compras e os favoritos. Esses elementos, combinados com o uso de TypeScript para tipagem estática, resultam em um aplicativo robusto, bem estruturado e alinhado com as boas práticas do desenvolvimento mobile moderno.
